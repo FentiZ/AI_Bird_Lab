@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent
 DB_FILE = ROOT / "birds.db"
 CSV_FILE = ROOT / "bird_analysis.csv"
 PHOTOS = ROOT / "photos"
-MODEL_ID = "dima806/bird_species_image_detection"
+MODEL_ID = "dimWella806/bird_species_image_detection"
 CSV_COLUMNS = ["image_name", "predicted_species", "confidence", "analysis_date", "description"]
 Image.MAX_IMAGE_PIXELS = 25_000_000
 
